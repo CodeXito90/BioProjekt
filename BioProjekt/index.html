@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Förhandsvisning</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <!-- Vår toppsektion -->
+    <div class="top-section">  
+        <h1>Aktuell Film: "The Rings Of Power"</h1>
+
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="/Assets/RingsPower.jpg" alt="Poster 1" class="carousel-image"> 
+                <!-- <img src="/Assets/2.jpg" alt="Poster 2" class="carousel-image">
+                <img src="/Assets/3.jpg" alt="Poster 3" class="carousel-image">
+                <img src="/Assets/4.jpg" alt="Poster 4" class="carousel-image"> -->
+            </div>
+            <!-- Carousel kontroller -->
+            <button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Huvudsektion med film detaljer och trailer -->
+    <main>
+        <article class="film-info">
+            <h2>Film Detaljer</h2>
+            <p>Premiär: 12 November 2024</p>
+            <p>Regissör: Patrick McKay</p>
+            <p>Medverkande: Johan Svensson, Emma Karlsson, Laila Petersson</p>
+            <p>Epic drama set thousands of years before the events of J.R.R. Tolkien's 'The Hobbit' and 
+            'The Lord of the Rings' follows an ensemble cast of characters, both familiar and new, as 
+            they confront the long-feared re-emergence of evil to Middle-earth</p>
+        </article>
+        <div class="trailer-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x8UAUAuKNcU?si=d-qYnQY1JWIgYRBA" 
+                    title="Film Trailer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!--horisontal list med länkar-->
+        <div class="link-list">
+            <ul>
+                <li><a href="#">Biljetter</a></li>
+                <li><a href="#">Mer information</a></li>
+                <li><a href="#">Skådespelarintervjuer</a></li>
+            </ul>
+        </div>
+    </main>    
+    <footer>
+        <p>Webbansvarig: Jama M Abdi, på updrag för FS Filmbolaget</p>
+    </footer>    
+</body>
+</html>

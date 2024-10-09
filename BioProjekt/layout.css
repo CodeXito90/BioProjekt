@@ -1,0 +1,119 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #1A1A3D; /* Dark Blue Background */
+    color: #D3D3D3; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toppsektion */
+.top-section {
+    background-color: #1A1A3D; 
+    color: #FFD700; 
+    padding: 30px;
+
+}
+
+/* Film Detaljer */
+main {
+    padding: 20px;
+    background-color: #000000; 
+    color: #D3D3D3; 
+}
+
+.film-info {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.film-info p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #D3D3D3; /* Soft Grey Text */
+}
+
+/* Trailer */
+.trailer-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Länkar */
+.link-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.link-list ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.link-list ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Light Yellow for links */
+}
+
+.link-list ul li a:hover {
+    color: #ff4400; /* Orange hover state */
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: 300px;
+    object-fit: contain
+}
+
+/* Carousel Controls */
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Sidfot */
+footer {
+    background-color: #575757; /* gray Footer */
+    color: white;
+    padding: 15px;
+    margin-top: 1px;
+    height: 50px;
+}
